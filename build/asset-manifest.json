@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b0a82cf.css",
+    "main.js": "/static/js/main.5b5a56e8.js",
+    "static/js/787.737388d4.chunk.js": "/static/js/787.737388d4.chunk.js",
+    "static/media/productDemoImage.jpg": "/static/media/productDemoImage.79f9843e43394b4f4db5.jpg",
+    "static/media/productDemoImage1.jpg": "/static/media/productDemoImage1.49043e4add622b55d3b3.jpg",
+    "static/media/demoImage2.jpg": "/static/media/demoImage2.533c93ebeb94cc6f5903.jpg",
+    "static/media/zoroProfile.jpg": "/static/media/zoroProfile.209aada225a0b9227374.jpg",
+    "index.html": "/index.html",
+    "main.0b0a82cf.css.map": "/static/css/main.0b0a82cf.css.map",
+    "main.5b5a56e8.js.map": "/static/js/main.5b5a56e8.js.map",
+    "787.737388d4.chunk.js.map": "/static/js/787.737388d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b0a82cf.css",
+    "static/js/main.5b5a56e8.js"
+  ]
+}
