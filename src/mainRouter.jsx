@@ -13,6 +13,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Events from "./components/pages/Events";
+import Menu from "./components/pages/Menu";
 
 function MainRouter() {
 
@@ -35,6 +36,7 @@ function MainRouter() {
         <Route exact path='/Contact' element={<Contact/>}></Route>
         
         <Route exact path='/Portfolio' element={<Portfolio/>}></Route>
+        <Route exact path="/menu" element={<Menu/>}></Route>
 
 {/* admin Routes */}
         

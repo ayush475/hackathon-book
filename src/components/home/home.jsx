@@ -34,7 +34,11 @@ function Home() {
         
         <div className='rounded-xl relative hover:scale-105 duration-500 cursor-pointer'>
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-                <p className=' font-bold text-2xl px-2 pt-4'>BILLING</p>
+                <p className=' font-bold text-2xl px-2 pt-4'>
+                <Link to="/billing"> BILLING</Link>
+                  </p>
+                
+                   
               
                 <button className='border border-white bg-white text-black mx-2 rounded-xl px-5 py-1 absolute bottom-4 shadow-md'>Order Now</button>
             </div>
@@ -42,7 +46,9 @@ function Home() {
         </div>
         <div className='rounded-xl relative hover:scale-105 duration-500 cursor-pointer'>
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-                <p className=' font-bold text-2xl px-2 pt-4'>MENU</p>
+                <p className=' font-bold text-2xl px-2 pt-4'>
+                    <Link to='/menu'> MENU</Link>
+                   </p>
                
                 <button className='border border-white bg-white text-black mx-2 rounded-xl px-5 py-1 absolute bottom-4 shadow-md'>Order Now</button>
             </div>
@@ -50,7 +56,8 @@ function Home() {
         </div>
         <div className='rounded-xl relative hover:scale-105 duration-500 cursor-pointer'>
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-                <p className=' font-bold text-2xl px-2 pt-4'>VOUCHER</p>
+                <p className=' font-bold text-2xl px-2 pt-4'>
+                    <Link to='/voucher'>VOUCHER</Link></p>
                
                 <button className='border border-white bg-white text-black mx-2 rounded-xl px-5 py-1 absolute bottom-4 shadow-md'>Order Now</button>
             </div>
@@ -58,7 +65,9 @@ function Home() {
         </div>
         <div className='rounded-xl relative hover:scale-105 duration-500 cursor-pointer'>
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-                <p className=' font-bold text-2xl px-2 pt-4'>REEDEM</p>
+                <p className=' font-bold text-2xl px-2 pt-4'>
+                    <Link to='/reedem'>REEDEM</Link>
+                </p>
                
                 <button className='border border-white bg-white text-black mx-2 rounded-xl px-5 py-1 absolute bottom-4 shadow-md'>Order Now</button>
             </div>
